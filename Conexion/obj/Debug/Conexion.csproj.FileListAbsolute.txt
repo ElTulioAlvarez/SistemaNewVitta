@@ -1,0 +1,9 @@
+E:\Proyectos\CSharp\SistemaNewVitta\Conexion\bin\Debug\Conexion.dll
+E:\Proyectos\CSharp\SistemaNewVitta\Conexion\bin\Debug\Conexion.pdb
+E:\Proyectos\CSharp\SistemaNewVitta\Conexion\bin\Debug\Entidades.dll
+E:\Proyectos\CSharp\SistemaNewVitta\Conexion\bin\Debug\Entidades.pdb
+E:\Proyectos\CSharp\SistemaNewVitta\Conexion\obj\Debug\Conexion.csproj.AssemblyReference.cache
+E:\Proyectos\CSharp\SistemaNewVitta\Conexion\obj\Debug\Conexion.csproj.CoreCompileInputs.cache
+E:\Proyectos\CSharp\SistemaNewVitta\Conexion\obj\Debug\Conexion.csproj.Up2Date
+E:\Proyectos\CSharp\SistemaNewVitta\Conexion\obj\Debug\Conexion.dll
+E:\Proyectos\CSharp\SistemaNewVitta\Conexion\obj\Debug\Conexion.pdb

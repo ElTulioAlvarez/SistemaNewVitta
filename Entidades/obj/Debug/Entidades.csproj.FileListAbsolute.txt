@@ -1,0 +1,6 @@
+E:\Proyectos\CSharp\SistemaNewVitta\Entidades\bin\Debug\Entidades.dll
+E:\Proyectos\CSharp\SistemaNewVitta\Entidades\bin\Debug\Entidades.pdb
+E:\Proyectos\CSharp\SistemaNewVitta\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+E:\Proyectos\CSharp\SistemaNewVitta\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+E:\Proyectos\CSharp\SistemaNewVitta\Entidades\obj\Debug\Entidades.dll
+E:\Proyectos\CSharp\SistemaNewVitta\Entidades\obj\Debug\Entidades.pdb
