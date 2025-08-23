@@ -28,10 +28,12 @@
         /// </summary>
         public void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Panel));
             this.windowBar = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.panelMain = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.panelDynamic = new System.Windows.Forms.Panel();
+            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.btnCerrar = new Guna.UI2.WinForms.Guna2Button();
             this.btnEgresos = new Guna.UI2.WinForms.Guna2Button();
             this.btnIngresos = new Guna.UI2.WinForms.Guna2Button();
             this.btnPsicologos = new Guna.UI2.WinForms.Guna2Button();
@@ -68,11 +70,19 @@
             this.panelMain.Size = new System.Drawing.Size(1038, 643);
             this.panelMain.TabIndex = 20;
             // 
+            // panelDynamic
+            // 
+            this.panelDynamic.Location = new System.Drawing.Point(172, 3);
+            this.panelDynamic.Name = "panelDynamic";
+            this.panelDynamic.Size = new System.Drawing.Size(863, 637);
+            this.panelDynamic.TabIndex = 1;
+            // 
             // guna2Panel1
             // 
             this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(41)))), ((int)(((byte)(41)))));
             this.guna2Panel1.BorderColor = System.Drawing.SystemColors.Control;
             this.guna2Panel1.BorderThickness = 1;
+            this.guna2Panel1.Controls.Add(this.btnCerrar);
             this.guna2Panel1.Controls.Add(this.btnEgresos);
             this.guna2Panel1.Controls.Add(this.btnIngresos);
             this.guna2Panel1.Controls.Add(this.btnPsicologos);
@@ -87,12 +97,24 @@
             this.guna2Panel1.Size = new System.Drawing.Size(170, 652);
             this.guna2Panel1.TabIndex = 0;
             // 
-            // panelDynamic
+            // btnCerrar
             // 
-            this.panelDynamic.Location = new System.Drawing.Point(172, 3);
-            this.panelDynamic.Name = "panelDynamic";
-            this.panelDynamic.Size = new System.Drawing.Size(863, 637);
-            this.panelDynamic.TabIndex = 1;
+            this.btnCerrar.Animated = true;
+            this.btnCerrar.BorderColor = System.Drawing.SystemColors.Control;
+            this.btnCerrar.BorderThickness = 1;
+            this.btnCerrar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.btnCerrar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.btnCerrar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.btnCerrar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.btnCerrar.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnCerrar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnCerrar.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnCerrar.Location = new System.Drawing.Point(48, 365);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Size = new System.Drawing.Size(78, 28);
+            this.btnCerrar.TabIndex = 6;
+            this.btnCerrar.Text = "Cerrar";
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // btnEgresos
             // 
@@ -263,9 +285,10 @@
             this.Controls.Add(this.btnCerrarVentan);
             this.Controls.Add(this.windowBar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Panel";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Panel";
+            this.Text = "New Vitta Panel Principal";
             this.panelMain.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -285,6 +308,7 @@
         private Guna.UI2.WinForms.Guna2Button btnPsicologos;
         private Guna.UI2.WinForms.Guna2Button btnIngresos;
         private Guna.UI2.WinForms.Guna2Button btnEgresos;
-        private System.Windows.Forms.Panel panelDynamic;
+        public System.Windows.Forms.Panel panelDynamic;
+        private Guna.UI2.WinForms.Guna2Button btnCerrar;
     }
 }

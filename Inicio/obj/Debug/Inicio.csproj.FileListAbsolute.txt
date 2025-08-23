@@ -30,3 +30,23 @@ E:\Proyectos\CSharp\SistemaNewVitta\Inicio\bin\Debug\Entidades.dll
 E:\Proyectos\CSharp\SistemaNewVitta\Inicio\bin\Debug\Conexion.pdb
 E:\Proyectos\CSharp\SistemaNewVitta\Inicio\bin\Debug\Entidades.pdb
 E:\Proyectos\CSharp\SistemaNewVitta\Inicio\obj\Debug\Inicio.panelInternos.resources
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Inicio\bin\Debug\Inicio.exe.config
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Inicio\bin\Debug\Inicio.exe
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Inicio\bin\Debug\Inicio.pdb
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Inicio\bin\Debug\Conexion.dll
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Inicio\bin\Debug\Entidades.dll
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Inicio\bin\Debug\Guna.UI2.dll
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Inicio\bin\Debug\Conexion.pdb
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Inicio\bin\Debug\Entidades.pdb
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Inicio\obj\Debug\Inicio.csproj.AssemblyReference.cache
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Inicio\obj\Debug\Inicio.exe.config
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Inicio\obj\Debug\Inicio.Login.resources
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Inicio\obj\Debug\Inicio.Panel.resources
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Inicio\obj\Debug\Inicio.panelInternos.resources
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Inicio\obj\Debug\Inicio.Properties.Resources.resources
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Inicio\obj\Debug\Inicio.csproj.GenerateResource.cache
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Inicio\obj\Debug\Inicio.csproj.CoreCompileInputs.cache
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Inicio\obj\Debug\Inicio.csproj.Up2Date
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Inicio\obj\Debug\Inicio.exe
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Inicio\obj\Debug\Inicio.pdb
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Inicio\obj\Debug\Inicio.registroInterno.resources

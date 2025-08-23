@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Login));
             this.windowBar = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.btnCerrar = new Guna.UI2.WinForms.Guna2Button();
@@ -203,7 +204,7 @@
             // 
             this.guna2HtmlLabel1.AutoSize = false;
             this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.BackgroundImage = global::Inicio.Properties.Resources.NewVitta1;
+            this.guna2HtmlLabel1.BackgroundImage = global::Inicio.Properties.Resources.NewVitta2;
             this.guna2HtmlLabel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(11, 32);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
@@ -280,9 +281,10 @@
             this.Controls.Add(this.btnCerrarVentan);
             this.Controls.Add(this.windowBar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "New Vitta";
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();

@@ -127,14 +127,20 @@
   <data name="NewVitta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NewVitta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="btnCerrarVentana" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnCerrarVentana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="btnCobros" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnCobros.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="btnRegistrar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnRegistrar1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btnCerrarVentana" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnCerrarVentana.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="NewVittaLeaf3D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NewVittaLeaf3D.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnModificarInterno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnModificarInterno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="NewVitta1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NewVitta1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,8 +154,8 @@
   <data name="btnPsicologos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnPsicologos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btnIngresos1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnIngresos1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="newVittaIcon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\newVittaIcon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="newVittaIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\newVittaIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,10 +172,13 @@
   <data name="btnEgresos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnEgresos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="btnIngresos1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btnIngresos1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="btnInternos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\btnInternos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="btnModificarInterno" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\btnModificarInterno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="NewVitta2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NewVitta2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

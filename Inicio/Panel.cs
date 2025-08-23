@@ -75,5 +75,12 @@ namespace Inicio
                 MessageBox.Show("Error al abrir el formulario de registro de paso: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            Login login = new Login();
+            login.Show();
+        }
     }
 }
