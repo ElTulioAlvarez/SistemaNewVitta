@@ -7,3 +7,12 @@ E:\Proyectos\CSharp\SistemaNewVitta\Conexion\obj\Debug\Conexion.csproj.CoreCompi
 E:\Proyectos\CSharp\SistemaNewVitta\Conexion\obj\Debug\Conexion.csproj.Up2Date
 E:\Proyectos\CSharp\SistemaNewVitta\Conexion\obj\Debug\Conexion.dll
 E:\Proyectos\CSharp\SistemaNewVitta\Conexion\obj\Debug\Conexion.pdb
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Conexion\bin\Debug\Conexion.dll
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Conexion\bin\Debug\Conexion.pdb
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Conexion\bin\Debug\Entidades.dll
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Conexion\bin\Debug\Entidades.pdb
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Conexion\obj\Debug\Conexion.csproj.AssemblyReference.cache
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Conexion\obj\Debug\Conexion.csproj.CoreCompileInputs.cache
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Conexion\obj\Debug\Conexion.csproj.Up2Date
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Conexion\obj\Debug\Conexion.dll
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Conexion\obj\Debug\Conexion.pdb

@@ -68,7 +68,7 @@ namespace Inicio
         {
             try
             {
-                MostrarFormulario(new panelInternos());
+                MostrarFormulario(new panelInternos(usuario));
             }
             catch (Exception ex)
             {

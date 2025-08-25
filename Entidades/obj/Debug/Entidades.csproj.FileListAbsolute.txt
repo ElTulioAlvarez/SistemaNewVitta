@@ -4,3 +4,9 @@ E:\Proyectos\CSharp\SistemaNewVitta\Entidades\obj\Debug\Entidades.csproj.Assembl
 E:\Proyectos\CSharp\SistemaNewVitta\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 E:\Proyectos\CSharp\SistemaNewVitta\Entidades\obj\Debug\Entidades.dll
 E:\Proyectos\CSharp\SistemaNewVitta\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Entidades\bin\Debug\Entidades.dll
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Entidades\obj\Debug\Entidades.dll
+C:\Users\Marco Tulio Alvarez\OneDrive\Documentos\Proyectos\CSharp\SistemaNewVitta\Entidades\obj\Debug\Entidades.pdb

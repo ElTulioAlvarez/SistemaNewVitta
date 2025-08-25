@@ -13,10 +13,12 @@ namespace Inicio
 {
     public partial class panelInternos : Form
     {
+        string Usuario;
         private static Form FormularioActivo = null;
-        public panelInternos()
+        public panelInternos(string Usuario)
         {
             InitializeComponent();
+            this.Usuario = Usuario;
         }
 
         
@@ -46,7 +48,7 @@ namespace Inicio
         {
             try
             {
-                MostrarFormulario(new registroInterno());
+                MostrarFormulario(new registroInterno(Usuario));
             }
             catch (Exception ex)
             {

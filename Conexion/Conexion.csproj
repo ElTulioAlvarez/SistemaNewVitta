@@ -43,7 +43,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexion.cs" />
+    <Compile Include="DatosDoctor.cs" />
+    <Compile Include="DatosInterno.cs" />
+    <Compile Include="DatosPsicologo.cs" />
     <Compile Include="DatosUsuario.cs" />
+    <Compile Include="InsertarInterno.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
