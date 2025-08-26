@@ -19,7 +19,7 @@ namespace Conexion
             {
                 try
                 {
-                    string query = "SELECT Nombre, CedulaProfesional, Especialidad, Telefono FROM Psicologos\r\n";
+                    string query = "SELECT Nombre, CedulaProfesional, Especialidad, Telefono, id_usuario FROM Psicologos\r\n";
 
                     SqlCommand cmd = new SqlCommand(query, sqlConexion);
                     cmd.CommandType = CommandType.Text;
@@ -35,7 +35,8 @@ namespace Conexion
                                 Nombre = dr["Nombre"].ToString(),
                                 CedulaProfesional = dr["CedulaProfesional"].ToString(),
                                 Especialidad = dr["Especialidad"].ToString(),
-                                Telefono = dr["Telefono"].ToString()
+                                Telefono = dr["Telefono"].ToString(),
+                                idUsuario = Convert.ToInt32(dr["id_usuario"])
                             });
                         }
                     }

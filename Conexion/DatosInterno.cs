@@ -19,7 +19,7 @@ namespace Conexion
             {
                 try
                 {
-                    string query = "SELECT Nombre, FechaNacimiento, Ocupacion, FamiliarResponsable, FechaIngreso, IdPsicologo, IdDoctor FROM Internos\r\n";
+                    string query = "SELECT IdInterno, Nombre, FechaNacimiento, Ocupacion, FamiliarResponsable, FechaIngreso, IdPsicologo, IdDoctor, id_usuario FROM Internos\r\n";
 
                     SqlCommand cmd = new SqlCommand(query, sqlConexion);
                     cmd.CommandType = CommandType.Text;
@@ -32,13 +32,15 @@ namespace Conexion
                         {
                             lista.Add(new Internos
                             {
+                                IdInterno = Convert.ToInt32(dr["IdInterno"]),
                                 Nombre = dr["Nombre"].ToString(),
                                 FechaNacimiento = Convert.ToDateTime(dr["FechaNacimiento"]),
                                 Ocupacion = dr["Ocupacion"].ToString(),
                                 FamiliarResponsable = dr["FamiliarResponsable"].ToString(),
                                 FechaIngreso = Convert.ToDateTime(dr["FechaIngreso"]),
                                 IdPsicologo = Convert.ToInt32(dr["IdPsicologo"]),
-                                IdDoctor = Convert.ToInt32(dr["IdDoctor"])
+                                IdDoctor = Convert.ToInt32(dr["IdDoctor"]),
+                                idUsuario = Convert.ToInt32(dr["id_usuario"])
                             });
                         }
                     }

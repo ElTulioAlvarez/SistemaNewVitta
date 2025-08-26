@@ -12,5 +12,6 @@ namespace Entidades
         public string CedulaProfesional { get; set; }
         public string Especialidad { get; set; }
         public string Telefono { get; set; }
+        public int idUsuario { get; set; }
     }
 }

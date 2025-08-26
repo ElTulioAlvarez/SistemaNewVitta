@@ -15,10 +15,17 @@ namespace Inicio
     public partial class registroInterno : Form
     {
         string Usuario;
+        int idUsuario;
         public registroInterno(string Usuario)
         {
             InitializeComponent();
             this.Usuario = Usuario;
+            CN_DatosUsuario.CN_Usuarios objUsuario = new CN_DatosUsuario.CN_Usuarios();
+            List<Usuarios> listaUsuarios = objUsuario.Listar();
+            Usuarios usuarioEncontrado = listaUsuarios.FirstOrDefault(u => u.usuario == Usuario);
+            int idUsuario = usuarioEncontrado.id_usuario;
+            this.idUsuario = idUsuario;
+
 
             // Cargar datos en los ComboBox
             CN_DatosPsicologo cN_DatosPsicologo = new CN_DatosPsicologo();
@@ -53,7 +60,8 @@ namespace Inicio
                         FamiliarResponsable = entryFamiliar.Text,
                         FechaIngreso = DateTime.Parse(entryFechaIngreso.Text),
                         IdPsicologo = entryPsicologo.SelectedIndex+1,
-                        IdDoctor = entryDoctor.SelectedIndex+1
+                        IdDoctor = entryDoctor.SelectedIndex+1,
+                        idUsuario = idUsuario
                     };
                     InsertarInterno insertarInterno = new InsertarInterno();
                     insertarInterno.Agregar(nuevoInterno);

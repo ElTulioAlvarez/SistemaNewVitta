@@ -17,7 +17,7 @@ namespace Conexion
             {
                 try
                 {
-                    string query = "Insert into Internos (Nombre, FechaNacimiento, Ocupacion, FamiliarResponsable, FechaIngreso, IdPsicologo, IdDoctor) values (@Nombre, @FechaNacimiento, @Ocupacion, @FamiliarResponsable, @FechaIngreso, @IdPsicologo, @IdDoctor)";
+                    string query = "Insert into Internos (Nombre, FechaNacimiento, Ocupacion, FamiliarResponsable, FechaIngreso, IdPsicologo, IdDoctor, id_usuario) values (@Nombre, @FechaNacimiento, @Ocupacion, @FamiliarResponsable, @FechaIngreso, @IdPsicologo, @IdDoctor, @id_usuario)";
                     SqlCommand cmd = new SqlCommand(query, sqlConnection);
                     cmd.CommandType = CommandType.Text;
                     cmd.Parameters.AddWithValue("@Nombre", interno.Nombre.ToString());
@@ -27,6 +27,7 @@ namespace Conexion
                     cmd.Parameters.AddWithValue("@FechaIngreso", interno.FechaIngreso.ToString());
                     cmd.Parameters.AddWithValue("@IdPsicologo", Convert.ToInt32(interno.IdPsicologo));
                     cmd.Parameters.AddWithValue("@IdDoctor", Convert.ToInt32(interno.IdDoctor));
+                    cmd.Parameters.AddWithValue("@id_usuario", Convert.ToInt32(interno.idUsuario));
                     sqlConnection.Open();
                     cmd.ExecuteNonQuery();
                 }

@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActualizarDatosInterno.cs" />
     <Compile Include="Conexion.cs" />
     <Compile Include="DatosDoctor.cs" />
     <Compile Include="DatosInterno.cs" />

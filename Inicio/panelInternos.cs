@@ -60,5 +60,17 @@ namespace Inicio
         {
             this.Close();
         }
+
+        private void btnModificarInterno_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                MostrarFormulario(new modificarInternos(Usuario));
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al abrir el formulario de modificación de paso: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }

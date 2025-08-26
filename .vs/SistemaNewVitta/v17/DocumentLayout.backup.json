@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Marco Tulio Alvarez\\OneDrive\\Documentos\\Proyectos\\CSharp\\SistemaNewVitta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7821BE8-2E83-432C-9091-B9CD9A59F8D9}|Inicio\\Inicio.csproj|c:\\users\\marco tulio alvarez\\onedrive\\documentos\\proyectos\\csharp\\sistemanewvitta\\inicio\\registrointerno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7821BE8-2E83-432C-9091-B9CD9A59F8D9}|Inicio\\Inicio.csproj|solutionrelative:inicio\\registrointerno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE792CC2-C588-4911-8293-CC0002D13423}|Conexion\\Conexion.csproj|c:\\users\\marco tulio alvarez\\onedrive\\documentos\\proyectos\\csharp\\sistemanewvitta\\conexion\\actualizardatosinterno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE792CC2-C588-4911-8293-CC0002D13423}|Conexion\\Conexion.csproj|solutionrelative:conexion\\actualizardatosinterno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE792CC2-C588-4911-8293-CC0002D13423}|Conexion\\Conexion.csproj|c:\\users\\marco tulio alvarez\\onedrive\\documentos\\proyectos\\csharp\\sistemanewvitta\\conexion\\insertarinterno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE792CC2-C588-4911-8293-CC0002D13423}|Conexion\\Conexion.csproj|solutionrelative:conexion\\insertarinterno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7821BE8-2E83-432C-9091-B9CD9A59F8D9}|Inicio\\Inicio.csproj|c:\\users\\marco tulio alvarez\\onedrive\\documentos\\proyectos\\csharp\\sistemanewvitta\\inicio\\cn_datosdoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7821BE8-2E83-432C-9091-B9CD9A59F8D9}|Inicio\\Inicio.csproj|solutionrelative:inicio\\cn_datosdoctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7821BE8-2E83-432C-9091-B9CD9A59F8D9}|Inicio\\Inicio.csproj|c:\\users\\marco tulio alvarez\\onedrive\\documentos\\proyectos\\csharp\\sistemanewvitta\\inicio\\modificarinternos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7821BE8-2E83-432C-9091-B9CD9A59F8D9}|Inicio\\Inicio.csproj|solutionrelative:inicio\\modificarinternos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "registroInterno.cs",
-              "DocumentMoniker": "C:\\Users\\Marco Tulio Alvarez\\OneDrive\\Documentos\\Proyectos\\CSharp\\SistemaNewVitta\\Inicio\\registroInterno.cs",
-              "RelativeDocumentMoniker": "Inicio\\registroInterno.cs",
-              "ToolTip": "C:\\Users\\Marco Tulio Alvarez\\OneDrive\\Documentos\\Proyectos\\CSharp\\SistemaNewVitta\\Inicio\\registroInterno.cs",
-              "RelativeToolTip": "Inicio\\registroInterno.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAA9wDcAAAA+AAAAAAAAAA==",
+              "Title": "ActualizarDatosInterno.cs",
+              "DocumentMoniker": "C:\\Users\\Marco Tulio Alvarez\\OneDrive\\Documentos\\Proyectos\\CSharp\\SistemaNewVitta\\Conexion\\ActualizarDatosInterno.cs",
+              "RelativeDocumentMoniker": "Conexion\\ActualizarDatosInterno.cs",
+              "ToolTip": "C:\\Users\\Marco Tulio Alvarez\\OneDrive\\Documentos\\Proyectos\\CSharp\\SistemaNewVitta\\Conexion\\ActualizarDatosInterno.cs*",
+              "RelativeToolTip": "Conexion\\ActualizarDatosInterno.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBMAAAAbAQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T23:23:58.074Z",
+              "WhenOpened": "2025-08-26T19:14:36.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "InsertarInterno.cs",
-              "DocumentMoniker": "C:\\Users\\Marco Tulio Alvarez\\OneDrive\\Documentos\\Proyectos\\CSharp\\SistemaNewVitta\\Conexion\\InsertarInterno.cs",
-              "RelativeDocumentMoniker": "Conexion\\InsertarInterno.cs",
-              "ToolTip": "C:\\Users\\Marco Tulio Alvarez\\OneDrive\\Documentos\\Proyectos\\CSharp\\SistemaNewVitta\\Conexion\\InsertarInterno.cs",
-              "RelativeToolTip": "Conexion\\InsertarInterno.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABgAAAAAAAAAA==",
+              "Title": "modificarInternos.cs",
+              "DocumentMoniker": "C:\\Users\\Marco Tulio Alvarez\\OneDrive\\Documentos\\Proyectos\\CSharp\\SistemaNewVitta\\Inicio\\modificarInternos.cs",
+              "RelativeDocumentMoniker": "Inicio\\modificarInternos.cs",
+              "ToolTip": "C:\\Users\\Marco Tulio Alvarez\\OneDrive\\Documentos\\Proyectos\\CSharp\\SistemaNewVitta\\Inicio\\modificarInternos.cs",
+              "RelativeToolTip": "Inicio\\modificarInternos.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAiwGUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T23:21:55.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CN_DatosDoctor.cs",
-              "DocumentMoniker": "C:\\Users\\Marco Tulio Alvarez\\OneDrive\\Documentos\\Proyectos\\CSharp\\SistemaNewVitta\\Inicio\\CN_DatosDoctor.cs",
-              "RelativeDocumentMoniker": "Inicio\\CN_DatosDoctor.cs",
-              "ToolTip": "C:\\Users\\Marco Tulio Alvarez\\OneDrive\\Documentos\\Proyectos\\CSharp\\SistemaNewVitta\\Inicio\\CN_DatosDoctor.cs",
-              "RelativeToolTip": "Inicio\\CN_DatosDoctor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-25T23:19:51.295Z",
+              "WhenOpened": "2025-08-26T19:14:18.476Z",
               "EditorCaption": ""
             }
           ]

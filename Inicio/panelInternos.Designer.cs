@@ -81,6 +81,7 @@
             this.btnModificarInterno.TabIndex = 12;
             this.btnModificarInterno.Text = "Modificar";
             this.btnModificarInterno.TextOffset = new System.Drawing.Point(-38, 40);
+            this.btnModificarInterno.Click += new System.EventHandler(this.btnModificarInterno_Click);
             // 
             // btnPagos
             // 

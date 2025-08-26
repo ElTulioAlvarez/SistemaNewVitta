@@ -9,6 +9,7 @@ namespace Entidades
 {
     public class Internos
     {
+        public int IdInterno { get; set; }
         public string Nombre { get; set; }
         public DateTime FechaNacimiento { get; set; }
         public string Ocupacion { get; set; }
@@ -16,5 +17,6 @@ namespace Entidades
         public DateTime FechaIngreso { get; set; }
         public int IdPsicologo { get; set; }
         public int IdDoctor { get; set; }
+        public int idUsuario { get; set; }
     }
 }
