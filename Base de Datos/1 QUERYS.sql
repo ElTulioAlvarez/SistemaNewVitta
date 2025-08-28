@@ -77,16 +77,19 @@ CREATE TABLE Mensualidades (
 
 INSERT INTO Psicologos (Nombre, CedulaProfesional, Especialidad, Telefono, id_usuario)
 VALUES 
+('Sin asignar', '', '', '', 1),
 ('María Fernanda López Ramírez', 'PSI-4587321', 'Psicología Clínica y Adicciones', '442-315-7890', 1),
 ('José Antonio García Torres', 'PSI-4829107', 'Terapia Cognitivo-Conductual', '444-222-4567', 1);
 
 INSERT INTO Doctores (Nombre, CedulaProfesional, Especialidad, Telefono, id_usuario)
 VALUES 
+('Sin asignar', '', '', '', 1),
 ('Dr. Alejandro Martínez Ríos', 'MED-5567810', 'Psiquiatría', '442-500-7788', 1),
 ('Dra. Lucía Hernández Vega', 'MED-6021985', 'Medicina Interna', '443-120-3345', 1);
 
 INSERT INTO Medicamentos (Nombre, Dosis, Frecuencia, id_usuario)
 VALUES
+('Sin asignar', '', '', 1),
 ('Sertralina', '50 mg', '1 vez al día', 1),
 ('Quetiapina', '100 mg', 'Noche', 1),
 ('Clonazepam', '0.5 mg', 'Cada 12 horas', 1),
@@ -95,6 +98,7 @@ VALUES
 
 INSERT INTO Internos (Nombre, FechaNacimiento, Ocupacion, FamiliarResponsable, FechaIngreso, IdPsicologo, IdDoctor, id_usuario)
 VALUES
+('Javier Rodriguez', '2025-07-01', 'Camionero', 'Josefina Barrgan', '2025-07-01', 1, 1, 1),
 ('Carlos Eduardo Ramírez López', '2025-07-01', 'Albañil', 'Martha López Ramírez', '2025-07-01', 1, 1, 1),
 ('Luis Fernando Torres Méndez', '2025-07-01', 'Chofer de carga', 'Ana Méndez Pérez', '2025-06-15', 2, 2, 1),
 ('Jorge Iván Hernández Ruiz', '2025-07-01', 'Carpintero', 'Rosa Ruiz Gutiérrez', '2025-05-20', 1, 2, 1),
@@ -106,17 +110,17 @@ VALUES
 
 INSERT INTO InternosMedicamentos (IdInterno, IdMedicamento, id_usuario)
 VALUES
-(1, 1, 1), -- Carlos -> Sertralina
-(1, 4, 1), -- Carlos -> Acetaminofén
-(2, 2, 1), -- Luis -> Quetiapina
-(3, 3, 1), -- Jorge -> Clonazepam
-(4, 1, 1), -- Mario -> Sertralina
-(5, 5, 1), -- Ricardo -> Omeprazol
+(2, 1, 1), -- Carlos -> Sertralina
+(2, 4, 1), -- Carlos -> Acetaminofén
+(3, 2, 1), -- Luis -> Quetiapina
+(4, 3, 1), -- Jorge -> Clonazepam
+(5, 1, 1), -- Mario -> Sertralina
+(6, 5, 1), -- Ricardo -> Omeprazol
 (6, 2, 1), -- Hugo -> Quetiapina
-(6, 3, 1), -- Hugo -> Clonazepam
-(7, 4, 1), -- Pedro -> Acetaminofén
-(8, 1, 1), -- Ernesto -> Sertralina
-(8, 5, 1); -- Ernesto -> Omeprazol
+(7, 3, 1), -- Hugo -> Clonazepam
+(8, 4, 1), -- Pedro -> Acetaminofén
+(9, 1, 1), -- Ernesto -> Sertralina
+(9, 5, 1); -- Ernesto -> Omeprazol
 
 INSERT INTO Mensualidades (IdInterno, FechaPago, Monto, Observaciones, id_usuario)
 VALUES
@@ -129,8 +133,4 @@ VALUES
 (7, '2025-07-15', 3500.00, 'Pago en efectivo', 1),
 (8, '2025-07-20', 3500.00, 'Pago realizado por la madre', 1);
 
-select * from internos;
-select * from Doctores;
-select * from Psicologos;
-select * from InternosMedicamentos;
-select * from Usuarios;
+select * from InternosMedicamentos where IdInterno = 2

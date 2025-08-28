@@ -46,6 +46,8 @@
     <Compile Include="Conexion.cs" />
     <Compile Include="DatosDoctor.cs" />
     <Compile Include="DatosInterno.cs" />
+    <Compile Include="DatosInternoMedicamentos.cs" />
+    <Compile Include="DatosMedicamento.cs" />
     <Compile Include="DatosPsicologo.cs" />
     <Compile Include="DatosUsuario.cs" />
     <Compile Include="InsertarInterno.cs" />

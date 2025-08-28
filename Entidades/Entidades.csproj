@@ -42,7 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Doctores.cs" />
+    <Compile Include="InternoMedicamentos.cs" />
     <Compile Include="Internos.cs" />
+    <Compile Include="Medicamentos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Psicologos.cs" />
     <Compile Include="Usuarios.cs" />

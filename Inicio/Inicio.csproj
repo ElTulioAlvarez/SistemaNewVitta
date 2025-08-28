@@ -57,6 +57,8 @@
   <ItemGroup>
     <Compile Include="CN_DatosDoctor.cs" />
     <Compile Include="CN_DatosInterno.cs" />
+    <Compile Include="CN_DatosInternosMedicamentos.cs" />
+    <Compile Include="CN_DatosMedicamento.cs" />
     <Compile Include="CN_DatosPsicologo.cs" />
     <Compile Include="CN_DatosUsuario.cs" />
     <Compile Include="Login.cs">
