@@ -106,8 +106,8 @@ Ajusta servidor y autenticación según tu entorno:
          providerName="System.Data.SqlClient" />
   </connectionStrings>
 </configuration>
-Uso básico
 ```
+Uso básico
 Login con un usuario válido (rol Admin la primera vez).
 
 Catálogos: registra profesionales (psicólogos/doctores) y medicamentos.
